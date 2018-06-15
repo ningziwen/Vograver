@@ -6,7 +6,7 @@
 2. 可在浏览词库中导入或导出xml格式的词库。
 3. 软件初始词库为GRE3000词库。
 ## 最新版本  
-V0.1.0 
+[V0.1.0](https://github.com/charlienzw/Vograver/releases/tag/V0.1.0) 
 
 
 
