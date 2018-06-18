@@ -328,7 +328,7 @@ class Startwords(QMainWindow,Ui_Startwords):
         self.exitbutton.clicked.connect(self.exit_fun)
         self.hardcheck.stateChanged.connect(self.changehard)
         self.rechoose.clicked.connect(self.rechoose_fun)
-        self.showchinesebutton.setShortcut('V')
+        self.showchinesebutton.setShortcut(chr(32))
         self.remember.setShortcut('Z')
         self.notremember.setShortcut('X')
         self.kill.setShortcut('C')
@@ -388,7 +388,7 @@ class Startwords(QMainWindow,Ui_Startwords):
         self.english.show()
         self.english.setFont(QFont("Roman times",20,QFont.Bold))  
         self.beginbutton.hide()
-        self.english.setGeometry(QRect(340, 60, 141, 31))
+        self.english.setGeometry(QRect(210, 20, 371, 91))
         self.showchinesebutton.show()
         self.remember.hide()
         self.notremember.hide()
@@ -521,7 +521,7 @@ if __name__ == '__main__':
    tree_user=ET.parse(userdataname)
    wordbook= tree_word.getroot()
    userinfo=tree_user.getroot()
-   daynowi=str(int(time.time()-float(userinfo[0].text))//(24*3600)+1)
+   daynowi=str(int(time.time()-float(userinfo[0].text))//(24*3600))
    timedict={1:0.5*60*60,2:1*60*60,3:3*60*60,4:10*60*60,5:24*60*60,6:48*60*60,7:96*60*60}
    killtime=36*60*60
    maxnewwords=10

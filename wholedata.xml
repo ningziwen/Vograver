@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<wordbook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<wordbook>
 	<item>
 		<word>abandon</word>
 		<trans>♠考法1  n. 放纵： carefree, freedom from constraint
@@ -15,10 +14,10 @@
 ♣例  the bad weather forced NASA to abandon the launch 坏天气迫使NASA停止了发射
 ♣近  abort, drop, repeal, rescind, revoke, call off
 ♣反  keep, continue, maintain, carry on 继续</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1529301422.5575879</timerecord>
 	</item>
 	<item>
 		<word>abase</word>
@@ -26,10 +25,10 @@
 ♣例  was unwilling to abase himself by pleading guilty to a crime that he did not commit 不愿意屈就自己去承认一个莫须有的罪名
 ♣近  debauch, degrade, profane, vitiate, discredit, foul, smirch, take down
 ♣反  elevate, ennoble, uplift, aggrandize, canonize, deify, exalt 使高贵，使有声望</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1529301423.3234782</timerecord>
 	</item>
 	<item>
 		<word>abash</word>
@@ -37,10 +36,10 @@
 ♣例  Nothing could abash him. 没有什么可以使他感到难堪。
 ♣近  discomfit, disconcert, discountenance, faze, fluster, nonplus, mortify
 ♣反  embolden 使大胆</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1529301425.0806863</timerecord>
 	</item>
 	<item>
 		<word>abate</word>
@@ -55,10 +54,10 @@
 ♠考法3  v. 停止，撤销： to put an end to
 ♣例  abate a nuisance 停止伤害
 ♣近  abrogate, annul, invalidate, nullify, rescind, vacate</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1529301425.9729545</timerecord>
 	</item>
 	<item>
 		<word>abbreviate</word>
@@ -66,10 +65,10 @@
 ♣例  abbreviate the word “building” as “bldg.” 将“building”缩写作“bldg”
 ♣近  abridge, curtail, cut back, syncopate，truncate
 ♣反  extend, protract, elongate, lengthen, prolong 延长</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1529301432.8790505</timerecord>
 	</item>
 	<item>
 		<word>abdicate</word>
@@ -77,10 +76,10 @@
 ♣例  abdicate the throne/crown 退位
 ♣近  cede, relinquish, renounce, resign, step down (from)
 ♣反  constitute, assume, usurp 任命，承担，篡位</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1529301433.4423094</timerecord>
 	</item>
 	<item>
 		<word>aberrant</word>
@@ -88,10 +87,10 @@
 ♣例  This behavior might be aberrant enough to draw attention. 这样的行为已经异常得足以引起人们的注意。
 ♣近  abnormal, anomalous, peculiar, singular, unwonted，uncustomary
 ♣反  normal, natural, regular, standard, typical 正常的，标准典型的</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1529301433.8738117</timerecord>
 	</item>
 	<item>
 		<word>abet</word>
@@ -101,10 +100,10 @@
 ♠考法2  v. 鼓励： to actively encourage (as an activity or plan)
 ♣近  aid, assist, back, support, prop (up)
 ♣反  stymie, frustrate, obstruct, thwart, impede, forestall , hinder 阻挠</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1529301494.844338</timerecord>
 	</item>
 	<item>
 		<word>abeyance</word>

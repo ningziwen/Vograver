@@ -69,7 +69,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>显示释义(V)</string>
+    <string>显示释义(Space)</string>
    </property>
   </widget>
   <widget class="QPushButton" name="beginbutton">

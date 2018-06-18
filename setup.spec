@@ -1,8 +1,8 @@
 # -*- mode: python -*-
-import sys
-sys.setrecursionlimit(5000) # or more
-block_cipher = None
 
+block_cipher = None
+import sys
+sys.setrecursionlimit(5000)
 
 a = Analysis(['setup.py'],
              pathex=['D:\\Projects\\Vograver'],
@@ -24,7 +24,7 @@ exe = EXE(pyz,
           debug=False,
           strip=False,
           upx=True,
-          console=True )
+          console=False )
 coll = COLLECT(exe,
                a.binaries,
                a.zipfiles,
