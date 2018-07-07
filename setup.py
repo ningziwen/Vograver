@@ -4,8 +4,8 @@
 
 import sys
 from PyQt5.QtWidgets import QMainWindow,QDialog,QApplication,QHBoxLayout,QAbstractItemView,QTableWidgetItem,QFileDialog
-from PyQt5.QtCore import Qt,QRect
-from PyQt5.QtGui import QFont
+from PyQt5.QtCore import Qt,QRect,QTimer
+from PyQt5.QtGui import QFont,QKeySequence
 from function import *
 from startwords import *
 from quickstartwords import *
@@ -166,35 +166,107 @@ class Quickstartwords(QMainWindow,Ui_Quickstartwords):
         self.setupUi(self) 
         self.showchinesebutton.clicked.connect(self.showchinese)
         self.exitbutton.clicked.connect(self.exititself)
-        
+        self.wholebutton.clicked.connect(self.wholemode)
+        self.hardbutton.clicked.connect(self.hardmode)
+        self.hardcheck.stateChanged.connect(self.changehard) 
+        self.showchinesebutton.setShortcut(chr(32))
+        self.hardcheck.setShortcut('H')
+        self.timer = QTimer(self)
+        self.english.setFont(QFont("Roman times",10,QFont.Bold)) 
     def openitself(self):
         self.show()
+        self.wholebutton.show()
+        self.hardbutton.show()
+        self.exitbutton.show()
+        self.english.hide()
+        self.chinese.hide()
+        self.showchinesebutton.hide()
+        self.hardcheck.hide()
+
+    def wholemode(self):
+        self.hardcheck.show()
+        self.wholebutton.hide()
+        self.hardbutton.hide()
+        self.english.show()
+        self.chinese.show()
+        self.showchinesebutton.show()
         self.k=0
         self.sel=list(range(len(wordbook)))
         random.shuffle(self.sel)
-        while self.flag==1:
-            self.english.setText(wordbook[self.sel[self.k]][0].text)
-            self.k=self.k+1
-            time.sleep(2)
-            if self.k>len(wordbook)-1:
+        self.timer.timeout.connect(self.wholeoperate) 
+        self.timer.start(2000) 
+     
+    def wholeoperate(self):
+        self.chinese.setText("")
+        self.english.setText(wordbook[self.sel[self.k]][0].text)
+        if wordbook[self.sel[self.k]][4].text=='1':
+            self.hardcheck.setCheckState(Qt.Checked)
+        else:
+            self.hardcheck.setCheckState(Qt.Unchecked)
+        self.k=self.k+1
+        if self.k>len(wordbook)-1:
                 self.showchinesebutton.hide()
                 self.english.setText("没有单词啦")
                 self.chinese.hide()
+                self.timer.stop()
+                self.hardcheck.hide()
+        
+    def hardmode(self):
+        self.hardcheck.show()
+        self.wholebutton.hide()
+        self.hardbutton.hide()
+        self.english.show()
+        self.chinese.show()
+        self.showchinesebutton.show()
+        self.k=0
+        self.sel=list(range(len(wordbook)))
+        random.shuffle(self.sel)
+        self.timer.timeout.connect(self.hardoperate) 
+        self.timer.start(2000)
+    
+    def hardoperate(self):
+        self.chinese.setText("")
+        while(wordbook[self.sel[self.k]][4].text=='0'):
+            self.k=self.k+1
+            if self.k>len(wordbook)-1:
                 break
+        if self.k>len(wordbook)-1:
+            self.showchinesebutton.hide()
+            self.english.setText("没有单词啦")
+            self.hardcheck.hide()
+            self.chinese.hide()
+            self.timer.stop()
+        else:
+            self.english.setText(wordbook[self.sel[self.k]][0].text)
+            if wordbook[self.sel[self.k]][4].text=='1':
+                self.hardcheck.setCheckState(Qt.Checked)
+            else:
+                self.hardcheck.setCheckState(Qt.Unchecked)
+            self.k=self.k+1
+
     
     def showchinese(self):
-        if self.flag==1:
-            self.flag=0
-            self.chinese.setText(wordbook[self.k][1].text)
-            self.showchinesebutton.setText("继续")
-        if self.flag==0:
-            self.flag=1
-            self.chinese.setText(wordbook[self.k][1].text)
-            self.showchinesebutton.setText("显示释义")
+        if(self.timer.isActive()):
+            self.chinese.setText(wordbook[self.sel[self.k]][1].text)
+            self.timer.stop()
+        else:
+            self.chinese.setText("")
+            self.timer.start(2000)         
+        
     
     def exititself(self):
-        self.flag==0
+        global tree_word
+        global wordbook
+        tree_word.write(worddataname,'UTF-8')
+        tree_word = ET.parse(worddataname)
+        wordbook= tree_word.getroot()
         self.hide()
+        
+    def changehard(self, state):
+        if state == Qt.Checked:
+            wordbook[self.sel[self.k]][4].text='1'
+        else:
+            wordbook[self.sel[self.k]][4].text='0'
         
 
 class Function(QMainWindow,Ui_Function):  
@@ -210,7 +282,7 @@ class Function(QMainWindow,Ui_Function):
         self.start.clicked.connect(self.hideitself)
         self.scanwords.clicked.connect(self.hideitself)
         self.statwords.clicked.connect(self.hideitself)
-#        self.quickstart.clicked.connect(self.hideitself)  
+        self.quickstart.clicked.connect(self.hideitself)  
                                       
     def resetdata_fun(self):
         global tree_user
@@ -329,9 +401,11 @@ class Startwords(QMainWindow,Ui_Startwords):
         self.hardcheck.stateChanged.connect(self.changehard)
         self.rechoose.clicked.connect(self.rechoose_fun)
         self.showchinesebutton.setShortcut(chr(32))
-        self.remember.setShortcut('Z')
-        self.notremember.setShortcut('X')
-        self.kill.setShortcut('C')
+        self.remember.setShortcut(QKeySequence.MoveToPreviousChar)
+        self.notremember.setShortcut(QKeySequence.MoveToPreviousLine)
+        self.kill.setShortcut(QKeySequence.MoveToNextChar)
+        self.rechoose.setShortcut('A')
+        self.hardcheck.setShortcut('H')
         
     def openitself(self): 
         global wordbooktmp
@@ -540,7 +614,7 @@ if __name__ == '__main__':
    function.statwords.clicked.connect(statwindow.openitself)
    startwords.exitbutton.clicked.connect(function.openitself)
    resetdialog.buttonBox.accepted.connect(function.resetdata_fun)
-#   function.quickstart.clicked.connect(quickstartwords.openitself)
+   function.quickstart.clicked.connect(quickstartwords.openitself)
    quickstartwords.exitbutton.clicked.connect(function.openitself)
    statwindow.exitbutton.clicked.connect(function.openitself)
    wordbase.exitbutton.clicked.connect(function.openitself) 

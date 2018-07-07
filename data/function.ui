@@ -41,7 +41,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>极速刷词（开发中）</string>
+     <string>极速刷词</string>
     </property>
    </widget>
    <widget class="QGroupBox" name="groupBox">

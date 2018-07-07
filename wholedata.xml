@@ -14,10 +14,10 @@
 ♣例  the bad weather forced NASA to abandon the launch 坏天气迫使NASA停止了发射
 ♣近  abort, drop, repeal, rescind, revoke, call off
 ♣反  keep, continue, maintain, carry on 继续</trans>
-		<progress>2</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>1529301422.5575879</timerecord>
+		<timerecord>1530976339.2676172</timerecord>
 	</item>
 	<item>
 		<word>abase</word>
@@ -25,10 +25,10 @@
 ♣例  was unwilling to abase himself by pleading guilty to a crime that he did not commit 不愿意屈就自己去承认一个莫须有的罪名
 ♣近  debauch, degrade, profane, vitiate, discredit, foul, smirch, take down
 ♣反  elevate, ennoble, uplift, aggrandize, canonize, deify, exalt 使高贵，使有声望</trans>
-		<progress>2</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>1529301423.3234782</timerecord>
+		<timerecord>1530976665.5766594</timerecord>
 	</item>
 	<item>
 		<word>abash</word>
@@ -37,9 +37,9 @@
 ♣近  discomfit, disconcert, discountenance, faze, fluster, nonplus, mortify
 ♣反  embolden 使大胆</trans>
 		<progress>2</progress>
-		<ifkilled>0</ifkilled>
+		<ifkilled>1</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>1529301425.0806863</timerecord>
+		<timerecord>1530976341.1718416</timerecord>
 	</item>
 	<item>
 		<word>abate</word>
@@ -56,7 +56,7 @@
 ♣近  abrogate, annul, invalidate, nullify, rescind, vacate</trans>
 		<progress>2</progress>
 		<ifkilled>0</ifkilled>
-		<ifhard>0</ifhard>
+		<ifhard>1</ifhard>
 		<timerecord>1529301425.9729545</timerecord>
 	</item>
 	<item>
@@ -66,9 +66,9 @@
 ♣近  abridge, curtail, cut back, syncopate，truncate
 ♣反  extend, protract, elongate, lengthen, prolong 延长</trans>
 		<progress>2</progress>
-		<ifkilled>0</ifkilled>
+		<ifkilled>1</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>1529301432.8790505</timerecord>
+		<timerecord>1530976667.2647047</timerecord>
 	</item>
 	<item>
 		<word>abdicate</word>
@@ -78,7 +78,7 @@
 ♣反  constitute, assume, usurp 任命，承担，篡位</trans>
 		<progress>2</progress>
 		<ifkilled>0</ifkilled>
-		<ifhard>0</ifhard>
+		<ifhard>1</ifhard>
 		<timerecord>1529301433.4423094</timerecord>
 	</item>
 	<item>
@@ -23171,7 +23171,7 @@
 ♣派  negligence n. 疏忽</trans>
 		<progress>-1</progress>
 		<ifkilled>0</ifkilled>
-		<ifhard>0</ifhard>
+		<ifhard>1</ifhard>
 		<timerecord>0</timerecord>
 	</item>
 	<item>

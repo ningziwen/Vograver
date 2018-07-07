@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>english.png</normaloff>english.png</iconset>
+    <normaloff>C:/Users/Administrator/.designer/backup/english.png</normaloff>C:/Users/Administrator/.designer/backup/english.png</iconset>
   </property>
   <widget class="QPushButton" name="remember">
    <property name="geometry">
@@ -27,7 +27,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>记得(Z)</string>
+    <string>记得(Left)</string>
    </property>
   </widget>
   <widget class="QPushButton" name="notremember">
@@ -40,7 +40,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>不记得(X)</string>
+    <string>不记得(Up)</string>
    </property>
   </widget>
   <widget class="QPushButton" name="kill">
@@ -53,7 +53,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>斩(C)</string>
+    <string>斩(Right)</string>
    </property>
   </widget>
   <widget class="QPushButton" name="showchinesebutton">
@@ -156,7 +156,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>设为困难词</string>
+    <string>设为困难词(H)</string>
    </property>
   </widget>
   <widget class="QPushButton" name="rechoose">
@@ -169,7 +169,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>撤销</string>
+    <string>撤销(A)</string>
    </property>
   </widget>
   <action name="action">

@@ -13,7 +13,7 @@ class Ui_Startwords(object):
         Startwords.setObjectName("Startwords")
         Startwords.resize(775, 600)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("english.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("C:/Users/Administrator/.designer/backup/english.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         Startwords.setWindowIcon(icon)
         self.remember = QtWidgets.QPushButton(Startwords)
         self.remember.setGeometry(QtCore.QRect(200, 410, 101, 41))
@@ -64,13 +64,13 @@ class Ui_Startwords(object):
     def retranslateUi(self, Startwords):
         _translate = QtCore.QCoreApplication.translate
         Startwords.setWindowTitle(_translate("Startwords", "背单词"))
-        self.remember.setText(_translate("Startwords", "记得(Z)"))
-        self.notremember.setText(_translate("Startwords", "不记得(X)"))
-        self.kill.setText(_translate("Startwords", "斩(C)"))
+        self.remember.setText(_translate("Startwords", "记得(Left)"))
+        self.notremember.setText(_translate("Startwords", "不记得(Up)"))
+        self.kill.setText(_translate("Startwords", "斩(Right)"))
         self.showchinesebutton.setText(_translate("Startwords", "显示释义(Space)"))
         self.beginbutton.setText(_translate("Startwords", "开始"))
         self.exitbutton.setText(_translate("Startwords", "结束"))
-        self.hardcheck.setText(_translate("Startwords", "设为困难词"))
-        self.rechoose.setText(_translate("Startwords", "撤销"))
+        self.hardcheck.setText(_translate("Startwords", "设为困难词(H)"))
+        self.rechoose.setText(_translate("Startwords", "撤销(A)"))
         self.action.setText(_translate("Startwords", "文件"))
 

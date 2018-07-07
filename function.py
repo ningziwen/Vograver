@@ -77,7 +77,7 @@ class Ui_Function(object):
         _translate = QtCore.QCoreApplication.translate
         Function.setWindowTitle(_translate("Function", "Vograver"))
         self.start.setText(_translate("Function", "开始背单词"))
-        self.quickstart.setText(_translate("Function", "极速刷词（开发中）"))
+        self.quickstart.setText(_translate("Function", "极速刷词"))
         self.groupBox.setTitle(_translate("Function", "配置"))
         self.label.setText(_translate("Function", "每天最多生词数"))
         self.label_2.setText(_translate("Function", "每天最多复习词数"))

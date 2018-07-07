@@ -15,15 +15,15 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>english.png</normaloff>english.png</iconset>
+    <normaloff>C:/Users/Administrator/.designer/backup/english.png</normaloff>C:/Users/Administrator/.designer/backup/english.png</iconset>
   </property>
   <widget class="QLabel" name="english">
    <property name="geometry">
     <rect>
-     <x>290</x>
-     <y>70</y>
-     <width>221</width>
-     <height>41</height>
+     <x>260</x>
+     <y>50</y>
+     <width>291</width>
+     <height>61</height>
     </rect>
    </property>
    <property name="text">
@@ -33,10 +33,10 @@
   <widget class="QLabel" name="chinese">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>160</y>
-     <width>381</width>
-     <height>171</height>
+     <x>160</x>
+     <y>130</y>
+     <width>481</width>
+     <height>231</height>
     </rect>
    </property>
    <property name="text">
@@ -53,7 +53,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>显示释义</string>
+    <string>显示释义/继续(Space)</string>
    </property>
   </widget>
   <widget class="QPushButton" name="exitbutton">
@@ -67,6 +67,45 @@
    </property>
    <property name="text">
     <string>结束</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="wholebutton">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>130</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刷全部单词</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="hardbutton">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>220</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>仅刷困难词</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="hardcheck">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>400</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>设为困难词(H)</string>
    </property>
   </widget>
  </widget>
