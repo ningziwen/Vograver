@@ -6,7 +6,7 @@
 2. 可在浏览词库中导入或导出xml格式的词库。
 3. 软件初始词库为GRE3000词库。
 ## 最新版本  
-[V0.2.1](https://github.com/charlienzw/Vograver/releases/tag/V0.2.1) 
+[V0.2.2](https://github.com/charlienzw/Vograver/releases/tag/V0.2.2) 
 ## 词库制作指南
 1. 新建Excel，选择“Developer”选项卡，点击“Import”，导入原词库的xml文件（该文件可通过应用程序中“浏览词库”中的导出词库获取）。  
 ![1](/help/1.png)
