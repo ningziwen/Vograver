@@ -14,10 +14,10 @@
 ♣例  the bad weather forced NASA to abandon the launch 坏天气迫使NASA停止了发射
 ♣近  abort, drop, repeal, rescind, revoke, call off
 ♣反  keep, continue, maintain, carry on 继续</trans>
-		<progress>3</progress>
+		<progress>4</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>1530976339.2676172</timerecord>
+		<timerecord>1531200158.1556234</timerecord>
 	</item>
 	<item>
 		<word>abase</word>
@@ -25,10 +25,10 @@
 ♣例  was unwilling to abase himself by pleading guilty to a crime that he did not commit 不愿意屈就自己去承认一个莫须有的罪名
 ♣近  debauch, degrade, profane, vitiate, discredit, foul, smirch, take down
 ♣反  elevate, ennoble, uplift, aggrandize, canonize, deify, exalt 使高贵，使有声望</trans>
-		<progress>3</progress>
+		<progress>4</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>1530976665.5766594</timerecord>
+		<timerecord>1531200159.1031265</timerecord>
 	</item>
 	<item>
 		<word>abash</word>
@@ -36,10 +36,10 @@
 ♣例  Nothing could abash him. 没有什么可以使他感到难堪。
 ♣近  discomfit, disconcert, discountenance, faze, fluster, nonplus, mortify
 ♣反  embolden 使大胆</trans>
-		<progress>2</progress>
-		<ifkilled>1</ifkilled>
+		<progress>3</progress>
+		<ifkilled>2</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>1530976341.1718416</timerecord>
+		<timerecord>1531200235.8475592</timerecord>
 	</item>
 	<item>
 		<word>abate</word>
@@ -54,10 +54,10 @@
 ♠考法3  v. 停止，撤销： to put an end to
 ♣例  abate a nuisance 停止伤害
 ♣近  abrogate, annul, invalidate, nullify, rescind, vacate</trans>
-		<progress>2</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>1</ifhard>
-		<timerecord>1529301425.9729545</timerecord>
+		<timerecord>1531200237.9576223</timerecord>
 	</item>
 	<item>
 		<word>abbreviate</word>
@@ -65,10 +65,10 @@
 ♣例  abbreviate the word “building” as “bldg.” 将“building”缩写作“bldg”
 ♣近  abridge, curtail, cut back, syncopate，truncate
 ♣反  extend, protract, elongate, lengthen, prolong 延长</trans>
-		<progress>2</progress>
-		<ifkilled>1</ifkilled>
+		<progress>3</progress>
+		<ifkilled>2</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>1530976667.2647047</timerecord>
+		<timerecord>1531200451.7427561</timerecord>
 	</item>
 	<item>
 		<word>abdicate</word>
@@ -76,10 +76,10 @@
 ♣例  abdicate the throne/crown 退位
 ♣近  cede, relinquish, renounce, resign, step down (from)
 ♣反  constitute, assume, usurp 任命，承担，篡位</trans>
-		<progress>2</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>1</ifhard>
-		<timerecord>1529301433.4423094</timerecord>
+		<timerecord>1531200453.4872394</timerecord>
 	</item>
 	<item>
 		<word>aberrant</word>
@@ -87,10 +87,10 @@
 ♣例  This behavior might be aberrant enough to draw attention. 这样的行为已经异常得足以引起人们的注意。
 ♣近  abnormal, anomalous, peculiar, singular, unwonted，uncustomary
 ♣反  normal, natural, regular, standard, typical 正常的，标准典型的</trans>
-		<progress>2</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>1529301433.8738117</timerecord>
+		<timerecord>1531200456.1256974</timerecord>
 	</item>
 	<item>
 		<word>abet</word>
@@ -100,10 +100,10 @@
 ♠考法2  v. 鼓励： to actively encourage (as an activity or plan)
 ♣近  aid, assist, back, support, prop (up)
 ♣反  stymie, frustrate, obstruct, thwart, impede, forestall , hinder 阻挠</trans>
-		<progress>2</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>1529301494.844338</timerecord>
+		<timerecord>1531200457.9123614</timerecord>
 	</item>
 	<item>
 		<word>abeyance</word>
@@ -111,10 +111,10 @@
 ♣例  hold the plan in abeyance 使计划暂停
 ♣近  doldrums, quiescence, moratorium, latency, dormancy, suspension, cold storage, deep freeze
 ♣反  continuance, fulfillment 继续，履行</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205541.8269684</timerecord>
 	</item>
 	<item>
 		<word>abhor</word>
@@ -122,10 +122,10 @@
 ♣例  He abhors the way people leave their trash at the picnic sites in the park. 他很厌恶人们把垃圾留在公园的野餐点。
 ♣近  abominate, despise, detest, execrate, loathe
 ♣反  greatly admire 非常崇拜</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205542.2315779</timerecord>
 	</item>
 	<item>
 		<word>abiding</word>
@@ -133,10 +133,10 @@
 ♣例  an abiding love of Espanol 对西班牙语持久的热爱
 ♣近  ageless, enduring, eternal, everlasting, perennial, perpetual, timeless
 ♣反  evanescent , ephemeral 短暂的</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205542.6545255</timerecord>
 	</item>
 	<item>
 		<word>abject</word>
@@ -149,10 +149,10 @@
 ♠考法3  adj. 卑微的，讨好的： expressing or offered in a humble and often ingratiating spirit
 ♣例  abject flattery 卑躬屈膝般的恭维； an abject apology 讨好般的、真心的道歉
 ♣近  base, humble, menial, servile, slavish</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205543.0895476</timerecord>
 	</item>
 	<item>
 		<word>abjure</word>
@@ -164,10 +164,10 @@
 ♣例  abjure extravagance 抵制铺张浪费
 ♣近  keep (from), refrain (from), withhold (from)
 ♣反  bow to, give in to, submit to, succumb to, surrender to, yield to 屈从于</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205543.513507</timerecord>
 	</item>
 	<item>
 		<word>abnegate</word>
@@ -179,10 +179,10 @@
 ♣例  abnegated her powers 交出她拥有的权力
 ♣近  cede, resign, step aside (from), step down (from)
 ♣反  adhere to 依附，坚持</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205544.1088252</timerecord>
 	</item>
 	<item>
 		<word>abominate</word>
@@ -190,20 +190,20 @@
 ♣例  We abominate jokes that make fun of people who have physical disabilities. 我们鄙视对有生理缺陷的人开玩笑。
 ♣近  despise, detest, execrate, loathe
 ♣反  esteem, love, adore 尊敬，爱</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205544.6827946</timerecord>
 	</item>
 	<item>
 		<word>aboveboard</word>
 		<trans>♠考法1  adj. 无欺诈的，光明正大的： free from all traces of deceit or duplicity
 ♣例  This transaction was totally aboveboard, so there was no reason to question it. 这项交易完全公开公正，没有必要质疑。
 ♣反  chicanery, surreptitious, underhanded 偷偷摸摸的</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205545.492591</timerecord>
 	</item>
 	<item>
 		<word>abrade</word>
@@ -211,10 +211,10 @@
 ♣例  My skin was abraded. 我的皮肤被磨损了。
 ♣近  chafe, excoriate, rasp, graze, scuff
 ♣反  augment 增加</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205546.0282788</timerecord>
 	</item>
 	<item>
 		<word>abridge</word>
@@ -225,10 +225,10 @@
 ♠考法2  v. 在不改变本意的条件下删减词语， 缩写： to shorten by omission of words without sacrifice of sense
 ♣例  an abridged edition 精简版
 ♣近  abbreviate, curtail, condense, syncopate</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205546.576717</timerecord>
 	</item>
 	<item>
 		<word>abrogate</word>
@@ -238,20 +238,20 @@
 ♣反  embrace, uphold, institute 采纳，支持，建立
 ♠考法2  v. 无视（某事的）存在： to treat as nonexistent
 ♣例  abrogate their responsibilities 抛开、不顾他们的责任</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206059.4201565</timerecord>
 	</item>
 	<item>
 		<word>abscond</word>
 		<trans>♠考法1  v. 偷偷离开： to depart secretly and hide oneself
 ♣例  abscond from the prison 越狱
 ♣近  flee, lam, run off, break out (of), clear out</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531207872.6445236</timerecord>
 	</item>
 	<item>
 		<word>absolute</word>
@@ -270,10 +270,10 @@
 ♣例  absolute proof 确凿的证据
 ♣近  clear, deciding, decisive, definitive
 ♣反  inconclusive, indecisive, unclear 不明确的</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531207876.584916</timerecord>
 	</item>
 	<item>
 		<word>abstain</word>
@@ -281,10 +281,10 @@
 ♣例  abstain from smoking/voting 戒烟，弃权
 ♣近  forgo, keep from, refrain from, withhold (from)
 ♣反  bow to, give in to, submit to, succumb to, surrender to, yield to 屈服于</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531207877.418127</timerecord>
 	</item>
 	<item>
 		<word>abstemious</word>
@@ -292,10 +292,10 @@
 ♣例  an abstemious diet 有节制的饮食， abstemious meals 节俭的晚餐
 ♣近  continent, temperate, self-abnegating, self-denying
 ♣反  indulgent 放纵的</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531207878.0734057</timerecord>
 	</item>
 	<item>
 		<word>abstract</word>
@@ -308,10 +308,10 @@
 ♣近  detract, divert, call off, throw off
 ♣派  abstraction n. 心不在焉
 ♣反  attention 关注</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531207882.889753</timerecord>
 	</item>
 	<item>
 		<word>abstruse</word>
@@ -319,10 +319,10 @@
 ♣例  the abstruse calculations 复杂深奥的计算
 ♣近  arcane, esoteric, hermetic (also hermetical), recondite
 ♣反  accessible, patent, shallow, superficial 可了解的，肤浅的</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531207883.6188533</timerecord>
 	</item>
 	<item>
 		<word>absurd</word>
@@ -330,10 +330,10 @@
 ♣例  an absurd argument 无稽之谈
 ♣近  wild, bizarre, ludicrous, insane, nonsensical, preposterous, half-baked
 ♣反  rational, sensible, realistic, reasonable 理性的，合理的</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531207884.5469759</timerecord>
 	</item>
 	<item>
 		<word>abundant</word>
@@ -341,10 +341,10 @@
 ♣例  a abundant land 一片富饶的土地
 ♣近  ample, cornucopian, teeming, replete, abounding
 ♣反  infrequent, rare, uncommon, inadequate, scanty, scarce 稀少的，罕见的</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531207885.4155238</timerecord>
 	</item>
 	<item>
 		<word>abuse</word>
@@ -355,20 +355,20 @@
 ♠考法2  v. 不正当不合理使用： to put to a wrong or improper use; 过分过量使用：to use excessively
 ♣例  abuse a privilege 滥用特权； abuse alcohol 酗酒
 ♣近  misemploy, misuse</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531207911.5048404</timerecord>
 	</item>
 	<item>
 		<word>abut</word>
 		<trans>♠考法1  v. 邻接，毗邻： to touch at one end or side; lie adjacent
 ♣例  Our land abuts a wildlife preserve. 我们的土地靠近一片野生动物保护区。
 ♣近  skirt, verge on, border on, butt on, march with</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531207912.2102797</timerecord>
 	</item>
 	<item>
 		<word>abysmal</word>
@@ -380,10 +380,10 @@
 ♣例  abysmal ignorance 极端的无知；an abysmal cliff 深不见底的悬崖
 ♣近  profound
 ♣反  skin-deep, superficial 肤浅的</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531207912.8682268</timerecord>
 	</item>
 	<item>
 		<word>accede</word>
@@ -393,10 +393,10 @@
 ♣反  demur, dissent 反对
 ♠考法2  v. 就任，就职：To arrive at or come into an office or dignity:
 ♣例  accede to the throne 就任国王</trans>
-		<progress>-1</progress>
+		<progress>3</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531207913.4870408</timerecord>
 	</item>
 	<item>
 		<word>accelerate</word>
@@ -410,10 +410,10 @@
 ♣例  toy purchases accelerate dramatically during the Christmas season 玩具销售量在圣诞期间暴涨
 ♣近  accumulate, balloon, enlarge, escalate, mushroom, proliferate, snowball, roll up
 ♣反  contract, decrease, diminish, dwindle, lessen, recede, wane</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203298.754798</timerecord>
 	</item>
 	<item>
 		<word>accessible</word>
@@ -429,10 +429,10 @@
 ♣例  The data is not currently accessible. 数据目前还不可用。
 ♣近  available, attainable, obtainable, procurable
 ♣反  unattainable, unavailable, unobtainable</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203299.0962524</timerecord>
 	</item>
 	<item>
 		<word>accessory</word>
@@ -443,10 +443,10 @@
 ♠考法2  n. 帮凶： one associated with another in wrongdoing
 ♣例  two accessories, the driver of the getaway car and the dishonest bank teller, were charged in the robbery case 两个帮凶，逃逸车辆的司机和不诚信的银行出纳，在抢劫案中被控告
 ♣近  abettor, confederate</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203299.4297574</timerecord>
 	</item>
 	<item>
 		<word>accidental</word>
@@ -458,10 +458,10 @@
 ♣例  Its commercial value was accidental. 它的商业价值微乎其微。
 ♣近  alien, extraneous, external, adventitious
 ♣反  inherent, innate, intrinsic 内在的，固有的</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203299.7683518</timerecord>
 	</item>
 	<item>
 		<word>acclimate</word>
@@ -469,10 +469,10 @@
 ♣例  acclimate oneself to a nine-to-five office job 适应朝九晚五的坐班生活
 ♣近  adjust, accommodate, shape, suit, tailor
 ♣反  make unfamiliar with 使不熟悉</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203300.1451054</timerecord>
 	</item>
 	<item>
 		<word>accolade</word>
@@ -482,10 +482,10 @@
 ♣近  applause, credit, distinction
 ♠考法2  v. 赞扬： to praise or honor
 ♣反  excoriation, criticism, reprobation, castigation, cutting remark, derogation, reproof. denigration, denunciation, swearword 批评，谴责</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203300.5367296</timerecord>
 	</item>
 	<item>
 		<word>accommodate</word>
@@ -499,19 +499,19 @@
 ♣例  The idea that the United States could harmoniously accommodate all was a fiction. 认为美国能够和谐一切就是幻想。
 ♣近  attune, conciliate, conform, coordinate, reconcile
 ♣反  disharmonize 使不和谐</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203300.9907358</timerecord>
 	</item>
 	<item>
 		<word>accost</word>
 		<trans>♠考法1  vt. 以挑衅的形式搭讪： to approach and speak to often in a challenging or aggressive way
 ♣例  accosted by three gang members 被三个混混搭讪</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203301.3954985</timerecord>
 	</item>
 	<item>
 		<word>accrete</word>
@@ -520,10 +520,10 @@
 ♣近  accumulate, build up, pile (up), stack (up)
 ♣反  wear away, reduction in substance caused by erosion 侵蚀，减少
 ♣派  accretion n. 慢慢增加</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203301.7750633</timerecord>
 	</item>
 	<item>
 		<word>accumulate</word>
@@ -531,10 +531,10 @@
 ♣例  accumulate a fortune 积攒了一笔财富
 ♣近  mount, swell, garner, snowball, build up, bulk (up)
 ♣反  dissipate, diminish, dwindle, recede, wane 消散，减少</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203302.210226</timerecord>
 	</item>
 	<item>
 		<word>acerbic</word>
@@ -543,10 +543,10 @@
 ♣近  pungent, sardonic, satiric, scalding, scathing
 ♣反  sweet, saccharin 甜的，糖精（甜）
 ♣派  acerbity n. 酸</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203308.1427357</timerecord>
 	</item>
 	<item>
 		<word>acme</word>
@@ -557,10 +557,10 @@
 ♠考法2  n. 最佳典范： the most perfect type or example
 ♣例  a movie that has come to be regarded as the acme of the Hollywood musical 这部影片被认为是好莱坞音乐剧的最佳典范
 ♣近  apotheosis, epitome, exemplar</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203308.4429505</timerecord>
 	</item>
 	<item>
 		<word>acquiesce</word>
@@ -568,10 +568,10 @@
 ♣例  acquiesce to my own fleecing 默许我的敲竹杠行为
 ♣近  assent, consent, subscribe, come round
 ♣反  resist, defy, dissent 抵制，不同意</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203312.709387</timerecord>
 	</item>
 	<item>
 		<word>acrid</word>
@@ -580,20 +580,20 @@
 ♠考点2 adj. 刻薄的： marked by the use of wit that is intended to cause hurt feelings
 ♣例  acrid temper 刻薄的性情
 ♣反  gentle 温和的</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203313.0185041</timerecord>
 	</item>
 	<item>
 		<word>acrimonious</word>
 		<trans>♠考法1  adj. 刻薄的，充满仇恨的： having or showing deep-seated resentment
 ♣例  the acrimonious debate between the two candidates 候选人之间言辞激烈的辩论
 ♣近  embittered, hard, rancorous, resentful, sore</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203313.31875</timerecord>
 	</item>
 	<item>
 		<word>acumen</word>
@@ -601,10 +601,10 @@
 ♣例  the business acumen 商业方面的洞察力
 ♣近  keenness, shrewdness, canniness, clear-sightedness, hardheadedness
 ♣反  unable to discerning 不能辨别的</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203313.7703028</timerecord>
 	</item>
 	<item>
 		<word>acute</word>
@@ -619,10 +619,10 @@
 ♣例  experiencing acute distress over the misunderstanding with her best friend 因误会她的死党陷入了深深的痛苦
 ♣近  dreadful, excruciating, profound
 ♣反  light, moderate, soft 程度温和的</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203314.1944213</timerecord>
 	</item>
 	<item>
 		<word>ad-lib</word>
@@ -630,10 +630,10 @@
 ♣例  not bad for an ad-lib comedy routine 对即兴喜剧表演来说已经不错了
 ♣近  extemporary, impromptu, improvisational, offhanded
 ♣反  considered, planned, premeditated, rehearsed</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203314.6777968</timerecord>
 	</item>
 	<item>
 		<word>adamant</word>
@@ -641,20 +641,20 @@
 ♣例  adamant about staying here 执意留下来
 ♣近  hardheaded, headstrong, intransigent, pertinacious, obdurate, uncompromising
 ♣反  vacillatory, incline to yield, amenable, compliant, relenting, yielding 动摇的，易屈从的</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203316.2573922</timerecord>
 	</item>
 	<item>
 		<word>adapt</word>
 		<trans>♠考法1  vt. 修改，使适应： to modify according with the changing circumstances
 ♣例  adapt to the change 适应变化； adapt the novel for the screen 改编小说为影视作品
 ♣近  adjust, conform, edit, accommodate, shape, suit, tailor</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203318.0814743</timerecord>
 	</item>
 	<item>
 		<word>addict</word>
@@ -664,10 +664,10 @@
 ♣例  science-fiction addicts who eagerly await each new installment in the series 科幻小说爱好者，等待着系列的每一次更新
 ♣近  devotee, enthusiast, fanatic, maniac
 ♣反  nonfan 非粉丝</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203318.5350633</timerecord>
 	</item>
 	<item>
 		<word>adhere</word>
@@ -685,10 +685,10 @@
 ♣反  defect from 叛变
 ♣派  adherent n. 追随者：a follower of a leader, party, or profession
 ♣反  forerunner 先行者</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203318.9608655</timerecord>
 	</item>
 	<item>
 		<word>adjourn</word>
@@ -696,10 +696,10 @@
 ♣例  The meeting adjourned for a week. 会议延期一周。
 ♣近  prorogate, prorogue, recess, suspend
 ♣反  convoke 召集，召开会议</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203319.3495004</timerecord>
 	</item>
 	<item>
 		<word>adjunct</word>
@@ -707,10 +707,10 @@
 ♣例  Massage therapy can be used as an adjunct along with the medication. 按摩治疗可以作为药物治疗的补充疗法。
 ♣近  appendage, appliance, attachment, add-on
 ♣反  essential element 重要部分</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203327.2832634</timerecord>
 	</item>
 	<item>
 		<word>admonish</word>
@@ -721,10 +721,10 @@
 ♣例  admonished her for littering 责备她乱扔垃圾
 ♣近  chide, reprimand, reproach, reprove, tick off
 ♣派  admonishment n. 责备</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203327.8769147</timerecord>
 	</item>
 	<item>
 		<word>adore</word>
@@ -735,10 +735,10 @@
 ♣例  adored his wife 宠爱他的妻子
 ♣近  cherish
 ♣反  abhor, abominate, despise, detest, execrate, loathe 讨厌，嫌弃</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203328.317794</timerecord>
 	</item>
 	<item>
 		<word>adulate</word>
@@ -746,10 +746,10 @@
 ♣例  incompetent assistants who spend all their time adulating her 成天恭维她的不称职的下属
 ♣近  overpraise, belaud, soft-soap, butter up
 ♣反  scorn, disdain, vituperate, disparage 鄙视</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203328.7858317</timerecord>
 	</item>
 	<item>
 		<word>adulterate</word>
@@ -757,10 +757,10 @@
 ♣例  adulterate its products with cheap additives 在产品中掺杂廉价的添加剂
 ♣近  alloy, contaminate, pollute, taint, water down
 ♣反  enrich, fortify, strengthen 加入养分</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203329.382747</timerecord>
 	</item>
 	<item>
 		<word>adumbrate</word>
@@ -770,10 +770,10 @@
 ♠考法2  vt. 预示着： to give a slight indication of beforehand
 ♣例  The strife in Bloody Kansas adumbrated the civil war that would follow. 发生在堪萨斯州的流血冲突预示了之后的南北内战的爆发。
 ♣近  forerun, harbinger, herald, prefigure</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203330.0988007</timerecord>
 	</item>
 	<item>
 		<word>adventitious</word>
@@ -781,10 +781,10 @@
 ♣例  Moral considerations are adventitious to the study of art. 道德的考量对于艺术研究来说是不必要的。
 ♣近  alien, extraneous, external, foreign, supervenient
 ♣反  constitutional, essential, intrinsic, inborn, inbred, innate, inherent 天生的</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203330.6156647</timerecord>
 	</item>
 	<item>
 		<word>adversary</word>
@@ -792,10 +792,10 @@
 ♣例  political adversary 政敌
 ♣近  antagonist, foe, opponent
 ♣反  ally, amigo, friend 联盟，朋友</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203331.1286247</timerecord>
 	</item>
 	<item>
 		<word>advert</word>
@@ -803,10 +803,10 @@
 ♣例  He adverted to the problem in the opening paragraph. 他开门见山地引出了问题。
 ♣派  advertent a 留意的
 ♣反  inattentive, remiss, heedless, negligent 疏忽的</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203332.0545697</timerecord>
 	</item>
 	<item>
 		<word>advocate</word>
@@ -814,10 +814,10 @@
 ♣例  advocates traditional teaching methods 提倡传统教学方法
 ♣近  back, champion, endorse, patronize
 ♣反  impunge 提出异议</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203332.7408543</timerecord>
 	</item>
 	<item>
 		<word>affable</word>
@@ -825,10 +825,10 @@
 ♣例  an affable manner 随和的举止
 ♣近  cordial, genial, hospitable, sociable, good-natured, good-tempered, well-disposed
 ♣反  irascible, testy, ill-tempered, unamiable, ungenial易怒的，不随和的</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531203333.398607</timerecord>
 	</item>
 	<item>
 		<word>affinity</word>
@@ -839,10 +839,10 @@
 ♠考法2  n. 相似： the fact or state of having something in common
 ♣例  a study showing an affinity between obesity and socioeconomic status 一项表现了肥胖程度和社会经济水平之间相似性的研究
 ♣近  association, bearing, kinship</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205547.149805</timerecord>
 	</item>
 	<item>
 		<word>affluent</word>
@@ -850,10 +850,10 @@
 ♣例  affluent society 富裕的社会
 ♣近  opulent, loaded, deep-pocketed, silk-stocking, well-endowed, well-off, well-to-do
 ♣反  needy, impecunious, impoverished, indigent, penurious 贫困的</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205547.6401088</timerecord>
 	</item>
 	<item>
 		<word>aggrandize</word>
@@ -861,10 +861,10 @@
 ♣例  exploited the situation to aggrandize himself 借势而上使得自己地位提升、财富增长
 ♣近  augment, boost , expand, magnify, add (to),pump up
 ♣反  relegate, disparage, efface, abase, demean 降级，贬低</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205548.118464</timerecord>
 	</item>
 	<item>
 		<word>aggravate</word>
@@ -875,10 +875,10 @@
 ♠考法2  v. 使不爽： to disturb the peace of mind of (someone) especially by repeated disagreeable acts
 ♣例  it really aggravates me when I arrive 10 minutes before the stated closing time, and the store's closed already 我在号称的打烊时间前10分钟到达，但发现商店已经关门了，让我很不爽
 ♣近  annoy, bother, nettle, vex</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205548.780978</timerecord>
 	</item>
 	<item>
 		<word>aggregate</word>
@@ -891,10 +891,10 @@
 ♣近  coalesce, join together 结合，连接
 ♣派  disaggregate v. 分解
 ♣反  disperse 分散</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205549.4199758</timerecord>
 	</item>
 	<item>
 		<word>aggressive</word>
@@ -905,10 +905,10 @@
 ♠考法2  adj. 强有力的，强烈的： marked by or uttered with forcefulness
 ♣例  an aggressive campaign to win the African-American vote 一次能够获得非裔美国人选票的强有力的竞选
 ♣近  dynamic, energetic, full-blooded, vigorous</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205549.950665</timerecord>
 	</item>
 	<item>
 		<word>aggrieve</word>
@@ -917,10 +917,10 @@
 ♣派  aggrieved adj. 苦恼的，怨念的
 ♣例  a line of aggrieved ticket-holders, demanding a refund for the cancelled play 一队怨念的购票者，为取消的话剧要求退款
 ♣近  discontent, disgruntled, displeased, dissatisfied, malcontent</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205550.4943955</timerecord>
 	</item>
 	<item>
 		<word>agitate</word>
@@ -931,10 +931,10 @@
 ♣例  There's no need to agitate the patient about little things. 没必要因为鸡毛蒜皮的事让患者烦躁。
 ♣近  bother, discomfort, discompose, perturb
 ♣反  calm, compose, soothe, tranquilize 平息抚慰，淡定</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205550.9953375</timerecord>
 	</item>
 	<item>
 		<word>agog</word>
@@ -942,10 +942,10 @@
 ♣例  Children were agog over new toys. 孩子们见到了新玩具极其兴奋。
 ♣近  avid, ardent, enthusiastic, solicitous, voracious
 ♣反  apathetic, indifferent, uneager, unenthusiastic 漠不关心的，无情的</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205551.540882</timerecord>
 	</item>
 	<item>
 		<word>agonize</word>
@@ -957,10 +957,10 @@
 ♣例  She agonized for days over the moral issues involved. 一连几天她都为被卷入的道德纠纷而感到痛苦。
 ♣近  anguish, bleed, hurt, mourn, sorrow, suffer
 ♣反  cheer, crow, delight, exult, joy, rejoice 感到高兴</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205552.0715172</timerecord>
 	</item>
 	<item>
 		<word>airtight</word>
@@ -968,10 +968,10 @@
 ♣例  an airtight argument 滴水不漏、无懈可击的论断
 ♠考法2  adj. 密封的，不透气的：impermeable to air or nearly so
 ♣例  an airtight seal 不透气的封口</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531205552.6081493</timerecord>
 	</item>
 	<item>
 		<word>alacrity</word>
@@ -979,20 +979,20 @@
 ♣例  accepted the invitation with alacrity 欣喜地接受了邀请
 ♣近  amenability, gameness, obligingness, willingness
 ♣反  dilatoriness, hesitance and reluctance 拖延，犹豫和不情愿</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206059.8227837</timerecord>
 	</item>
 	<item>
 		<word>alibi</word>
 		<trans>♠考法1  n. 不在场的证明；托辞，借口： an excuse usually intended to avert blame or punishment (as for failure or negligence)
 ♣例  He always has a very creative alibi for undone homework. 他对于不完成作业总是有各种新奇的借口。
 ♣近  defense, justification, plea, reason</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206060.237425</timerecord>
 	</item>
 	<item>
 		<word>alienate</word>
@@ -1005,10 +1005,10 @@
 ♣近  assign, cede, convey, deed, make over
 ♣反  expropriate 接纳他人财产
 ♣派  unalienable adj. 不可予夺的，不可转让的</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206060.6519606</timerecord>
 	</item>
 	<item>
 		<word>align</word>
@@ -1018,10 +1018,10 @@
 ♠考法2  vt. 调准，校准： to adjust to produce a proper relationship or orientation
 ♣例  align the wheels of the truck 调整卡车的轮子
 ♣反  improperly adjusted, irregular 调整不当的，不规则的</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206061.089094</timerecord>
 	</item>
 	<item>
 		<word>allay</word>
@@ -1029,10 +1029,10 @@
 ♣例  allay one’s fears or doubts 减轻某人的恐惧或怀疑
 ♣近  assuage, ease, mitigate, mollify, palliate, relieve, soothe
 ♣反  excite, aggravate, foment, increase the intensity of, exacerbate 激起，加重</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206061.5113826</timerecord>
 	</item>
 	<item>
 		<word>allegiance</word>
@@ -1040,10 +1040,10 @@
 ♣例  They swore their allegiance to the USA. 他们宣誓效忠美国。
 ♣近  commitment, dedication, piety, faithfulness, steadfastness
 ♣反  inconstancy, infidelity, perfidiousness, treachery</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206061.9634848</timerecord>
 	</item>
 	<item>
 		<word>alleviate</word>
@@ -1051,20 +1051,20 @@
 ♣例  alleviate pain/suffering 减轻痛苦
 ♣近  ease, assuage, mitigate, mollify, palliate, soothe
 ♣反  exacerbate 加剧</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206062.4789343</timerecord>
 	</item>
 	<item>
 		<word>allude</word>
 		<trans>♠考法1  vi. 间接提到： to convey an idea indirectly
 ♣例  He also alluded to his rival's past marital troubles. 他间接提到了对手过去的婚姻问题。
 ♣近  imply, indicate, infer, insinuate, intimate, suggest</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206063.089225</timerecord>
 	</item>
 	<item>
 		<word>allure</word>
@@ -1076,10 +1076,10 @@
 ♠考法2  v. 诱惑做某事： to lead away from a usual or proper course by offering some pleasure or advantage
 ♣例  allured by the promise of big bucks, he decided to have a go at a job on the trading floor of the stock market 被赚大钱的许诺所引诱，他决定投身股票市场工作
 ♣近  bait, beguile, decoy, entice, seduce, lead on</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206063.6186197</timerecord>
 	</item>
 	<item>
 		<word>ally</word>
@@ -1090,10 +1090,10 @@
 ♠考法2  v. 加入联盟：to enter into an alliance
 ♣例  several tribes allied to fend off the invaders 几个部落联合起来抵抗侵略者
 ♣反  disband 解散</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206064.165796</timerecord>
 	</item>
 	<item>
 		<word>aloft</word>
@@ -1101,10 +1101,10 @@
 ♣例  The balloon stayed aloft for days 气球在空中停留了很多天。
 ♣近  overhead
 ♣反  grounded 着陆地</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206064.7005394</timerecord>
 	</item>
 	<item>
 		<word>aloof</word>
@@ -1112,10 +1112,10 @@
 ♣例  an aloof church 一座孤零零的教堂； stood apart with aloof dignity 带着超然的尊严站在一旁
 ♣近  detached, offish, unsociable, withdrawn, standoffish
 ♣反  sociable 好社交的</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206097.7286344</timerecord>
 	</item>
 	<item>
 		<word>altruism</word>
@@ -1124,10 +1124,10 @@
 ♣反  egoism利己主义
 ♣派  altruistic adj.利他的
 ♣反  egotistic, self-centered, self-concerned, selfish 自私的</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206098.2596068</timerecord>
 	</item>
 	<item>
 		<word>amalgamate</word>
@@ -1135,10 +1135,10 @@
 ♣例  to amalgamate with an American company 与一家美国公司合并
 ♣近  mix, fuse, intermix, compound, meld, comingle, integrate, intermingle
 ♣反  separate, isolate分开，隔离</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206098.6209564</timerecord>
 	</item>
 	<item>
 		<word>ambiguous</word>
@@ -1146,10 +1146,10 @@
 ♣例  Students have ambiguous feelings about their role in the world. 学生们为他们在世界中的角色感到迷茫。Frustrated by ambiguous instructions因为不明确的指示而受挫
 ♣近  doubtful, equivocal, unclear, uncertain
 ♣反  distinct, pellucid, patent, blatant, explicit, lucid, perspicuous 清楚的，明显的</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206098.9780018</timerecord>
 	</item>
 	<item>
 		<word>amble</word>
@@ -1157,10 +1157,10 @@
 ♣例  Every evening, they ambled along the bank. 他们每晚沿河边散步。
 ♣近  ramble, saunter, stroll, wander, dally, dawdle
 ♣反  step quickly 快走</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206099.3370898</timerecord>
 	</item>
 	<item>
 		<word>ambrosial</word>
@@ -1168,10 +1168,10 @@
 ♣例  The ambrosial aroma of the roast stimulated our appetites. 烤肉的美味香气刺激了我们的食欲。
 ♣近  savory, aromal, aromatic, perfumed, redolent, odorous
 ♣反  fetid, noisome, stenchy, malodorous, rancid 恶臭的</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206099.7806675</timerecord>
 	</item>
 	<item>
 		<word>ameliorate</word>
@@ -1181,10 +1181,10 @@
 ♣反  aggravate, worsen, deteriorate恶化
 ♣派  ameliorator n. 改良物
 ♣反  damper n. 抑制因素</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206100.155767</timerecord>
 	</item>
 	<item>
 		<word>amenable</word>
@@ -1192,10 +1192,10 @@
 ♣例  a high-spirited and rebellious girl not at all amenable to persuasion. 一个泼辣而反叛的女孩根本不听从劝告。
 ♣近  compliant, docile, submissive, tractable, obedient
 ♣反  intransigent, contumacious不妥协的；intractable, recalcitrant, refractory 倔强的；uncontrollable, ungovernable, unruly 难管束的</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206100.5902827</timerecord>
 	</item>
 	<item>
 		<word>amenity</word>
@@ -1206,10 +1206,10 @@
 ♣例  a discussion conducted in perfect amenity 在和谐融洽的气氛中进行的讨论
 ♣近  agreeability, cordiality, harmony, accord, concord, consonance
 ♣反  discordance, inharmony 不和谐</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531206101.0736487</timerecord>
 	</item>
 	<item>
 		<word>amiable</word>
@@ -1217,10 +1217,10 @@
 ♣例  an amiable teacher not easily annoyed 一个不易惹恼易相处的老师
 ♣近  friendly, affable, amicable, genial, easy to get along with
 ♣反  disagreeable, ill-natured, ill-tempered, unamiable, ungenial, ungracious, unpleasant 坏脾气的，令人不愉快的</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531207914.1064487</timerecord>
 	</item>
 	<item>
 		<word>amicable</word>
@@ -1228,10 +1228,10 @@
 ♣例  maintain amicable relations 保持友好关系；an amicable divorce 和平离婚
 ♣近  friendly, affable, amicable, genial, easy to get along with
 ♣反  antagonistic, hostile, unfriendly有敌意的</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531207914.7880878</timerecord>
 	</item>
 	<item>
 		<word>amity</word>
@@ -1239,10 +1239,10 @@
 ♣例  live in amity with his neighbors 与邻居和谐相处；They parted in amity. 他们很友好地分别了。
 ♣近  friendship
 ♣反  enmity, hostility敌意</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531207915.4711194</timerecord>
 	</item>
 	<item>
 		<word>amorphous</word>
@@ -1252,20 +1252,20 @@
 ♠考法2  adj. 不可归类的being without definite character or nature : unclassifiable
 ♣例  an amorphous segment of society 不可归类的社会阶段
 ♣近  unclassifiable</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531207916.328969</timerecord>
 	</item>
 	<item>
 		<word>analgesic</word>
 		<trans>♠考法1  n. 镇痛剂：a medication that reduces or eliminates pain
 ♣例  Aspirin is a kind of analgesic. 阿司匹林是一种止痛剂。
 ♣同 anesthetic, anodyne</trans>
-		<progress>-1</progress>
+		<progress>2</progress>
 		<ifkilled>0</ifkilled>
 		<ifhard>0</ifhard>
-		<timerecord>0</timerecord>
+		<timerecord>1531207917.0614512</timerecord>
 	</item>
 	<item>
 		<word>anarchist</word>

@@ -20,10 +20,10 @@
   <widget class="QLabel" name="english">
    <property name="geometry">
     <rect>
-     <x>260</x>
-     <y>50</y>
-     <width>291</width>
-     <height>61</height>
+     <x>300</x>
+     <y>170</y>
+     <width>361</width>
+     <height>191</height>
     </rect>
    </property>
    <property name="text">
@@ -34,7 +34,7 @@
    <property name="geometry">
     <rect>
      <x>160</x>
-     <y>130</y>
+     <y>120</y>
      <width>481</width>
      <height>231</height>
     </rect>
@@ -106,6 +106,42 @@
    </property>
    <property name="text">
     <string>设为困难词(H)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="speedinput">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>50</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="speedlabel1">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>速度设置</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="speedlabel2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>60</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>毫秒/个</string>
    </property>
   </widget>
  </widget>

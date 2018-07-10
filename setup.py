@@ -172,18 +172,31 @@ class Quickstartwords(QMainWindow,Ui_Quickstartwords):
         self.showchinesebutton.setShortcut(chr(32))
         self.hardcheck.setShortcut('H')
         self.timer = QTimer(self)
-        self.english.setFont(QFont("Roman times",10,QFont.Bold)) 
+        self.speedinput.textChanged.connect(self.speedout)
+        self.english.setFont(QFont("Roman times",20,QFont.Bold))  
+        self.english.setGeometry(QRect(300, 170, 361, 191))
     def openitself(self):
         self.show()
         self.wholebutton.show()
         self.hardbutton.show()
         self.exitbutton.show()
+        self.speedinput.show()
+        self.speedlabel1.show()
+        self.speedlabel2.show()
         self.english.hide()
         self.chinese.hide()
         self.showchinesebutton.hide()
         self.hardcheck.hide()
+        self.speedinput.setText("1")
+        self.wordspeed=int(self.speedinput.text())
+    
+    def speedout(self):
+        self.wordspeed=int(self.speedinput.text())
 
     def wholemode(self):
+        self.speedinput.hide()
+        self.speedlabel1.hide()
+        self.speedlabel2.hide()
         self.hardcheck.show()
         self.wholebutton.hide()
         self.hardbutton.hide()
@@ -194,24 +207,29 @@ class Quickstartwords(QMainWindow,Ui_Quickstartwords):
         self.sel=list(range(len(wordbook)))
         random.shuffle(self.sel)
         self.timer.timeout.connect(self.wholeoperate) 
-        self.timer.start(2000) 
-     
+        self.timer.start(self.wordspeed) 
+
     def wholeoperate(self):
-        self.chinese.setText("")
-        self.english.setText(wordbook[self.sel[self.k]][0].text)
-        if wordbook[self.sel[self.k]][4].text=='1':
-            self.hardcheck.setCheckState(Qt.Checked)
-        else:
-            self.hardcheck.setCheckState(Qt.Unchecked)
         self.k=self.k+1
         if self.k>len(wordbook)-1:
-                self.showchinesebutton.hide()
-                self.english.setText("没有单词啦")
-                self.chinese.hide()
-                self.timer.stop()
-                self.hardcheck.hide()
+            self.showchinesebutton.hide()
+            self.english.setText("没有单词啦")
+            self.chinese.hide()
+            self.timer.stop()
+            self.hardcheck.hide()
+        else:
+            self.chinese.setText("")
+            self.english.setText(wordbook[self.sel[self.k]][0].text)
+            if wordbook[self.sel[self.k]][4].text=='1':
+                self.hardcheck.setCheckState(Qt.Checked)
+            else:
+                self.hardcheck.setCheckState(Qt.Unchecked)
+
         
     def hardmode(self):
+        self.speedinput.hide()
+        self.speedlabel1.hide()
+        self.speedlabel2.hide()
         self.hardcheck.show()
         self.wholebutton.hide()
         self.hardbutton.hide()
@@ -222,8 +240,7 @@ class Quickstartwords(QMainWindow,Ui_Quickstartwords):
         self.sel=list(range(len(wordbook)))
         random.shuffle(self.sel)
         self.timer.timeout.connect(self.hardoperate) 
-        self.timer.start(2000)
-    
+        self.timer.start(self.wordspeed)
     def hardoperate(self):
         self.chinese.setText("")
         while(wordbook[self.sel[self.k]][4].text=='0'):
@@ -247,11 +264,15 @@ class Quickstartwords(QMainWindow,Ui_Quickstartwords):
     
     def showchinese(self):
         if(self.timer.isActive()):
+            self.english.setFont(QFont("Roman times",10,QFont.Bold)) 
+            self.english.setGeometry(QRect(280, 50, 231, 51))
             self.chinese.setText(wordbook[self.sel[self.k]][1].text)
             self.timer.stop()
         else:
+            self.english.setFont(QFont("Roman times",20,QFont.Bold))  
+            self.english.setGeometry(QRect(300, 170, 361, 191))
             self.chinese.setText("")
-            self.timer.start(2000)         
+            self.timer.start(self.wordspeed)         
         
     
     def exititself(self):
@@ -282,8 +303,10 @@ class Function(QMainWindow,Ui_Function):
         self.start.clicked.connect(self.hideitself)
         self.scanwords.clicked.connect(self.hideitself)
         self.statwords.clicked.connect(self.hideitself)
-        self.quickstart.clicked.connect(self.hideitself)  
-                                      
+        self.quickstart.clicked.connect(self.hideitself) 
+        self.newleft.show()
+        self.reviewleft.show()
+        self.updateleft()           
     def resetdata_fun(self):
         global tree_user
         global userinfo
@@ -293,15 +316,36 @@ class Function(QMainWindow,Ui_Function):
         tree_user.write(userdataname,'UTF-8')
         tree_user = ET.parse(userdataname)
         userinfo= tree_user.getroot()
-        
+        self.updateleft()
     def newwordsout(self):
         global maxnewwords
         maxnewwords=int(self.newwords.text())-1
+        self.updateleft()
     def reviewwordsout(self):
         global maxreviewwords
         maxreviewwords=int(self.reviewwords.text())-1
+        self.updateleft()
+    def updateleft(self):
+        if len(userinfo)>1:
+            if(maxnewwords-int(userinfo[len(userinfo)-1][1].text)<0):
+                self.newleft.setText("0个生词待学习")
+            else:
+                self.newleft.setText(str(maxnewwords-int(userinfo[len(userinfo)-1][1].text))+"个生词待学习")
+            reviewsum=0;
+            for j in [2,3,4,5,6,7,8,9]:
+                reviewsum=reviewsum+int(userinfo[len(userinfo)-1][j].text)
+            if(maxreviewwords-reviewsum<0):
+                self.reviewleft.setText("0个单词待复习")
+            else:
+                self.reviewleft.setText(str(maxreviewwords-reviewsum)+"个单词待复习")
+        else:
+            self.newleft.setText(str(maxnewwords)+"个生词待学习")
+            self.reviewleft.setText(str(maxreviewwords)+"个单词待复习")    
     def openitself(self):
         self.show()
+        self.newleft.show()
+        self.reviewleft.show()
+        self.updateleft()
     def hideitself(self):
         self.hide()
             
@@ -422,7 +466,10 @@ class Startwords(QMainWindow,Ui_Startwords):
         self.hardcheck.hide()
         self.i=self.i-1
         self.starttime=time.time()
-        self.count=[0,0,0,0,0,0,0,0,0]
+        if len(userinfo)>1:
+            self.count=[int(userinfo[len(userinfo)-1][1].text),int(userinfo[len(userinfo)-1][2].text),int(userinfo[len(userinfo)-1][3].text),int(userinfo[len(userinfo)-1][4].text),int(userinfo[len(userinfo)-1][5].text),int(userinfo[len(userinfo)-1][6].text),int(userinfo[len(userinfo)-1][7].text),int(userinfo[len(userinfo)-1][8].text),int(userinfo[len(userinfo)-1][9].text)]
+        else:
+            self.count=[0,0,0,0,0,0,0,0,0]
         
         
     def ifshow(self):
@@ -571,7 +618,7 @@ class Startwords(QMainWindow,Ui_Startwords):
             if todayitem[0].text==daynowi:
                 flag=1
                 for j in range(1,10):
-                    todayitem[j].text=str(int(todayitem[j].text)+self.count[j-1])
+                    todayitem[j].text=str(self.count[j-1])
                 todayitem[10].text=str(int(todayitem[10].text)+int(self.exittime-self.starttime))
                 tree_user.write(userdataname,'UTF-8')
                 tree_user = ET.parse(userdataname)
@@ -580,7 +627,7 @@ class Startwords(QMainWindow,Ui_Startwords):
         if flag==0:
             todayitem=inituseritem(daynowi)
             for j in range(1,10):
-                todayitem[j].text=str(int(todayitem[j].text)+self.count[j-1])
+                todayitem[j].text=str(self.count[j-1])
             todayitem[10].text=str(int(todayitem[10].text)+int(self.exittime-self.starttime))
             userinfo.append(todayitem)
             tree_user.write(userdataname,'UTF-8')
