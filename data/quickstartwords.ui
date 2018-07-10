@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>极速刷词</string>
   </property>
   <property name="windowIcon">
    <iconset>
@@ -20,10 +20,10 @@
   <widget class="QLabel" name="english">
    <property name="geometry">
     <rect>
-     <x>300</x>
+     <x>340</x>
      <y>170</y>
-     <width>361</width>
-     <height>191</height>
+     <width>335</width>
+     <height>255</height>
     </rect>
    </property>
    <property name="text">
@@ -33,10 +33,10 @@
   <widget class="QLabel" name="chinese">
    <property name="geometry">
     <rect>
-     <x>160</x>
+     <x>60</x>
      <y>120</y>
-     <width>481</width>
-     <height>231</height>
+     <width>691</width>
+     <height>311</height>
     </rect>
    </property>
    <property name="text">
@@ -47,7 +47,7 @@
    <property name="geometry">
     <rect>
      <x>310</x>
-     <y>400</y>
+     <y>440</y>
      <width>151</width>
      <height>51</height>
     </rect>
@@ -99,7 +99,7 @@
    <property name="geometry">
     <rect>
      <x>570</x>
-     <y>400</y>
+     <y>440</y>
      <width>121</width>
      <height>41</height>
     </rect>
@@ -111,9 +111,9 @@
   <widget class="QLineEdit" name="speedinput">
    <property name="geometry">
     <rect>
-     <x>40</x>
+     <x>20</x>
      <y>50</y>
-     <width>31</width>
+     <width>51</width>
      <height>21</height>
     </rect>
    </property>
@@ -121,7 +121,7 @@
   <widget class="QLabel" name="speedlabel1">
    <property name="geometry">
     <rect>
-     <x>40</x>
+     <x>20</x>
      <y>30</y>
      <width>71</width>
      <height>16</height>
@@ -141,7 +141,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>毫秒/个</string>
+    <string>秒/个</string>
    </property>
   </widget>
  </widget>

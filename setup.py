@@ -173,8 +173,7 @@ class Quickstartwords(QMainWindow,Ui_Quickstartwords):
         self.hardcheck.setShortcut('H')
         self.timer = QTimer(self)
         self.speedinput.textChanged.connect(self.speedout)
-        self.english.setFont(QFont("Roman times",20,QFont.Bold))  
-        self.english.setGeometry(QRect(300, 170, 361, 191))
+
     def openitself(self):
         self.show()
         self.wholebutton.show()
@@ -188,10 +187,12 @@ class Quickstartwords(QMainWindow,Ui_Quickstartwords):
         self.showchinesebutton.hide()
         self.hardcheck.hide()
         self.speedinput.setText("1")
-        self.wordspeed=int(self.speedinput.text())
+        self.wordspeed=float(self.speedinput.text())
+        self.english.setFont(QFont("Roman times",20,QFont.Bold))  
+        self.english.setGeometry(QRect(300, 170, 361, 191))
     
     def speedout(self):
-        self.wordspeed=int(self.speedinput.text())
+        self.wordspeed=float(self.speedinput.text())
 
     def wholemode(self):
         self.speedinput.hide()
@@ -207,7 +208,7 @@ class Quickstartwords(QMainWindow,Ui_Quickstartwords):
         self.sel=list(range(len(wordbook)))
         random.shuffle(self.sel)
         self.timer.timeout.connect(self.wholeoperate) 
-        self.timer.start(self.wordspeed) 
+        self.timer.start(int(self.wordspeed*1000)) 
 
     def wholeoperate(self):
         self.k=self.k+1
@@ -240,7 +241,7 @@ class Quickstartwords(QMainWindow,Ui_Quickstartwords):
         self.sel=list(range(len(wordbook)))
         random.shuffle(self.sel)
         self.timer.timeout.connect(self.hardoperate) 
-        self.timer.start(self.wordspeed)
+        self.timer.start(int(self.wordspeed*1000))
     def hardoperate(self):
         self.chinese.setText("")
         while(wordbook[self.sel[self.k]][4].text=='0'):
@@ -272,7 +273,7 @@ class Quickstartwords(QMainWindow,Ui_Quickstartwords):
             self.english.setFont(QFont("Roman times",20,QFont.Bold))  
             self.english.setGeometry(QRect(300, 170, 361, 191))
             self.chinese.setText("")
-            self.timer.start(self.wordspeed)         
+            self.timer.start(int(self.wordspeed*1000))         
         
     
     def exititself(self):
