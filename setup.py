@@ -172,7 +172,6 @@ class Quickstartwords(QMainWindow,Ui_Quickstartwords):
         self.showchinesebutton.setShortcut(chr(32))
         self.hardcheck.setShortcut('H')
         self.timer = QTimer(self)
-        self.speedinput.textChanged.connect(self.speedout)
 
     def openitself(self):
         self.show()
@@ -189,12 +188,10 @@ class Quickstartwords(QMainWindow,Ui_Quickstartwords):
         self.speedinput.setText("1")
         self.wordspeed=float(self.speedinput.text())
         self.english.setFont(QFont("Roman times",20,QFont.Bold))  
-        self.english.setGeometry(QRect(300, 170, 361, 191))
-    
-    def speedout(self):
-        self.wordspeed=float(self.speedinput.text())
+        self.english.setGeometry(QRect(300, 170, 361, 191))    
 
     def wholemode(self):
+        self.wordspeed=float(self.speedinput.text())
         self.speedinput.hide()
         self.speedlabel1.hide()
         self.speedlabel2.hide()
@@ -228,6 +225,7 @@ class Quickstartwords(QMainWindow,Ui_Quickstartwords):
 
         
     def hardmode(self):
+        self.wordspeed=float(self.speedinput.text())
         self.speedinput.hide()
         self.speedlabel1.hide()
         self.speedlabel2.hide()

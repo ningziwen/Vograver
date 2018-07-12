@@ -20,7 +20,7 @@ class Ui_Quickstartwords(object):
         self.english.setText("")
         self.english.setObjectName("english")
         self.chinese = QtWidgets.QLabel(Quickstartwords)
-        self.chinese.setGeometry(QtCore.QRect(60, 120, 691, 311))
+        self.chinese.setGeometry(QtCore.QRect(20, 120, 731, 311))
         self.chinese.setObjectName("chinese")
         self.showchinesebutton = QtWidgets.QPushButton(Quickstartwords)
         self.showchinesebutton.setGeometry(QtCore.QRect(310, 440, 151, 51))
